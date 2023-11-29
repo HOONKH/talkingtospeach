@@ -41,7 +41,7 @@ const Day = () => {
           audioConfig: {
             audioEncoding: "MP3",
             speakingRate: 0.8,
-            pitch: -15.0,
+            pitch: 15.0,
           },
         }
       );
