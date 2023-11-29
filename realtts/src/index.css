@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  src: url("./fonts/lazyday.ttf");
+  font-family: "lazyday";
+}
+
+@layer components {
+  .container {
+    @apply min-h-screen max-w-screen-md mx-auto pt-20 px-8;
+  }
+}
+
+.lazy {
+  @apply font-[lazyday];
+}
+
+.btn {
+  @apply border-2  border-slate-200 rounded-md;
+}
